@@ -1,0 +1,5 @@
+numbers <- c(10, 20, 30, 40, 50, 60, 70)
+cat("Summary for the numeric vector 'numbers':\n")
+print(summary(numbers))
+cat("\nSummary for the 'iris' dataset:\n")
+print(summary(iris))
