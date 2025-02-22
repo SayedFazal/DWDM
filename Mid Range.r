@@ -1,0 +1,8 @@
+data <- c(12, 15, 18, 20, 20, 22, 25, 25, 28, 30, 35, 40, 45)
+cat("Mean:", mean(data), "\n")
+cat("Median:", median(data), "\n")
+cat("Quantiles:\n"); print(quantile(data))
+cat("Variance:", var(data), "\n")
+cat("Standard Deviation:", sd(data), "\n")
+cat("IQR:", IQR(data), "\n")
+cat("Mid Range:", (min(data) + max(data)) / 2, "\n")
